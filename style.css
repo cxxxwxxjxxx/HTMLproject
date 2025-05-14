@@ -1,0 +1,78 @@
+#header{}
+#header .wrapper_top{
+    height: 70px;
+}
+#header .wrapper_top .logo{
+    position: relative;
+    float:right;
+}
+#header .wrapper_top .logo a{}
+#header .wrapper_top .logo a img{
+    width:300px;
+    height:auto;
+}
+
+#header .wrapper_top .nav{
+    position: relative;
+    float: left;
+}
+#header .wrapper_top .nav ul{}
+#header .wrapper_top .nav ul li{
+    display: inline;
+    list-style-type:none;    
+}
+#header .wrapper_top .nav ul li a{}
+
+#header .wrapper_top .search{
+    position:relative;
+    float:left;
+}
+#header .wrapper_top .search input{
+    border-bottom:3px solid #ff0000;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+#header .wrapper_top .search input:focus{
+    outline:none;
+}
+#header .wrapper_top .search a{}
+#header .wrapper_top .search a img{
+    width:20px;
+    height:auto;
+}
+
+#header .menu{
+    position: relative;
+    top:100px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    background-color: #8e9c9e;
+}
+#header .menu ul{
+    display: inline;
+    text-align: center;
+    margin:0 auto;
+    list-style-type: none;
+
+}   
+#header .menu ul .menuList{
+    list-style-type: none;
+    display: inline;
+    float: left;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+#header .menu ul .menuList a{}
+#header .menu ul .menuList a img{
+    width: 100px;
+    height: auto;
+}
+#header .menu ul .menuList a p{
+    display:block; 
+    font-size:20px;  
+}
+#header{
+    background-color:#8e9c9e;
+}
